@@ -1,4 +1,4 @@
-# KIS_Process_Hollowing
+# KIS Process Hollowing
 ## Process hollowing Keep It Sample
 This is a simple POC about how this technique works, I tried to keep the program as short and simple as possible. <br>
 The concepts of this technique are explained [here](https://github.com/m0n0ph1/Process-Hollowing) very well.<br>
