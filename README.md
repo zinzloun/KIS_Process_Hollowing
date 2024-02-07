@@ -12,6 +12,12 @@ Here you will find 2 projects:
     5. Set an entry point for the malicious process
     6. Disable the suspended status for the target process created at point i
 
-You have to pass two parameters:
-- the path to exe to lunch the process. Must be a 32-bit app 
+You have to pass two argeuments to the console application:
+- the path to exe to lunch the target process. Must be a 32-bit exe. I used AnyDesk that was installed in my PC. You can use [Sigcheck](https://learn.microsoft.com/it-it/sysinternals/downloads/sigcheck) to check a file architecture
+- the path to the malicius file (here the messagebox app)
+
+      .\ProcessHollow.exe "C:\Program Files (x86)\AnyDesk\AnyDesk.exe" ".\HelloWorld.exe"
+
+  
+  
 
