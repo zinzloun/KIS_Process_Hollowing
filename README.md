@@ -10,5 +10,5 @@ Here you will find 2 projects:
     3. <i>Un-map</i> legitimate code from process memory
     4. Allocate memory for malicious process and write each section into the corresponding address space
     5. Set an entry point for the malicious process
-    6. Disable the suspended status for the target process
+    6. Disable the suspended status for the target process created at point 1
 
