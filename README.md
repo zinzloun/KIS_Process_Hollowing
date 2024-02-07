@@ -2,7 +2,7 @@
 ## Process hollowing Keep It Simple
 This is a simple POC about how this technique works, I tried to keep the program as short and simple as possible. <br>
 The concepts of this technique are explained [here](https://github.com/m0n0ph1/Process-Hollowing) very well.<br>
-Here you will find 2 projects:
+Here you will find two projects:
 1. An Hello world message box application used as source process, that contains the evil stuff (this is not the case :))
 2. A console application that implement the logic of process hollowing, that can be summarized with the following steps:
     1. Create the target process in a suspended state: don't use <b>svchost</b> since it will be flagged by Defender
@@ -18,6 +18,7 @@ You have to pass two argeuments to the console application:
 
       .\ProcessHollow.exe "C:\Program Files (x86)\AnyDesk\AnyDesk.exe" ".\HelloWorld.exe"
 
-  
+The projects are compiled using Visual Studio CE 2022 for the Win32 platform.
+
   
 
